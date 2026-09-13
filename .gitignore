@@ -1,0 +1,104 @@
+# Database backups and temporary files
+*.sql.bak
+*.sql.backup
+*.sql~
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables (DO NOT commit passwords or credentials)
+.env
+.env.local
+.env.*.local
+.env.prod
+
+# Python virtual environment and packages
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask
+instance/
+.webassets-cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Node modules (if used for any frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Database connection files
+config.ini
+config.yml
+secrets.yaml
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# IDE workspace files
+.project
+.pydevproject
+.settings/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# System files
+.AppleDouble
+.LSOverride
